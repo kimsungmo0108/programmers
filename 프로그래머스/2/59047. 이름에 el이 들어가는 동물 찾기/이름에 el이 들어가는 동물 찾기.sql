@@ -4,4 +4,5 @@ FROM ANIMAL_INS
 WHERE ANIMAL_TYPE = 'Dog'
     AND NAME LIKE '%el%' 
     AND NAME IS NOT NULL
+    -- LOWER(NAME) LIKE '%el%' 대소문자 구분 하지 않음
 ORDER BY NAME
